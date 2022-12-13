@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
     languages: ['css', 'html', 'bootstrap', 'Ruby'],
     live: "",
     source: "",
-    img:  'imgs/img-placeholder-fw.png',
+    img: 'imgs/img-placeholder-fw.png',
   };
 
   const {
@@ -67,11 +67,11 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       id: 1,
       title: 'Profesional Art Printing Data',
-      desc:`A daily selection of privately personalized reads; no accounts or
+      desc: `A daily selection of privately personalized reads; no accounts or
       sign-ups required. has been the industry's standard dummy text
       ever since the 1500s, when an unknown printer took a standard
       dummy text.`,
-      languages:   ['html', 'bootstrap', 'Ruby'],
+      languages: ['html', 'bootstrap', 'Ruby'],
       live: '',
       source: "",
       img: './imgs/placeholder-img.png',
@@ -84,7 +84,7 @@ document.addEventListener("DOMContentLoaded", () => {
       languages: ['html', 'javascript', 'css'],
       live: "",
       source: "",
-      img:'./imgs/placeholder-img.png',
+      img: './imgs/placeholder-img.png',
     },
     {
       id: 3,
@@ -98,7 +98,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       id: 4,
-      title:  'Profesional Art Data Printing',
+      title: 'Profesional Art Data Printing',
       desc: `A daily selection of privately personalized reads; no accounts or
       sign-ups required. has been the industry's standard.`,
       languages: ['html', 'css', 'Ruby'],
@@ -109,12 +109,12 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       id: 5,
       title: 'Healthcare Data Dashboard',
-      desc:`A daily selection of privately personalized reads; no accounts or
+      desc: `A daily selection of privately personalized reads; no accounts or
       sign-ups required. has been the industry's standard.`,
       languages: ['html', 'javascript', 'bootstrap'],
       live: "",
       source: "",
-      img:'./imgs/placeholder-img.png',
+      img: './imgs/placeholder-img.png',
     },
     {
       id: 6,
@@ -354,8 +354,6 @@ const submitForm = (e) => {
 
 submit.addEventListener("click", submitForm);
 
-
-
 // Store data in localStorage
 const fullName = document.getElementById("fullName");
 const message = document.getElementById("message");
@@ -390,4 +388,3 @@ const resetFrom = (e) => {
 };
 
 reset.addEventListener("click", resetFrom);
-
