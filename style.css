@@ -374,9 +374,11 @@ a {
 
 .card .card-info {
   position: relative;
-  background: linear-gradient(179.35deg,
+  background: linear-gradient(
+      179.35deg,
       rgba(38, 38, 38, 0) 0.85%,
-      rgba(38, 38, 38, 0.9) 84%);
+      rgba(38, 38, 38, 0.9) 84%
+);
   top: 0;
   height: 100%;
   display: flex;
@@ -939,7 +941,6 @@ button:disabled {
         Medium devices
 =========================== */
 @media (min-width: 768px) {
-
   /* ========================
          Navbar Section
   ========================= */
@@ -1092,9 +1093,11 @@ button:disabled {
 
   .card-desktop .card-info {
     position: relative;
-    background: linear-gradient(179.35deg,
+    background: linear-gradient(
+179.35deg,
         rgba(38, 38, 38, 0) 0.85%,
-        rgba(38, 38, 38, 0.9) 84%);
+        rgba(38, 38, 38, 0.9) 84%
+);
     top: 0;
     height: 100%;
     display: flex;
@@ -1178,7 +1181,6 @@ button:disabled {
         Large devices
   ========================= */
 @media (min-width: 992px) {
-
   /* ==========================
         Hero Section
   ========================= */
@@ -1485,7 +1487,6 @@ button:disabled {
         X-Large devices
   ========================= */
 @media (min-width: 1200px) {
-
   /* ==========================
         About Section
   ========================= */
@@ -1493,7 +1494,6 @@ button:disabled {
     width: 600.39px;
     height: 744.38px;
   }
-
 
   #contact .error {
     font-family: "Inter", sans-serif;
