@@ -374,11 +374,9 @@ a {
 
 .card .card-info {
   position: relative;
-  background: linear-gradient(
-    179.35deg,
-    rgba(38, 38, 38, 0) 0.85%,
-    rgba(38, 38, 38, 0.9) 84%
-  );
+  background: linear-gradient(179.35deg,
+      rgba(38, 38, 38, 0) 0.85%,
+      rgba(38, 38, 38, 0.9) 84%);
   top: 0;
   height: 100%;
   display: flex;
@@ -941,6 +939,7 @@ button:disabled {
         Medium devices
 =========================== */
 @media (min-width: 768px) {
+
   /* ========================
          Navbar Section
   ========================= */
@@ -1093,11 +1092,9 @@ button:disabled {
 
   .card-desktop .card-info {
     position: relative;
-    background: linear-gradient(
-      179.35deg,
-      rgba(38, 38, 38, 0) 0.85%,
-      rgba(38, 38, 38, 0.9) 84%
-    );
+    background: linear-gradient(179.35deg,
+        rgba(38, 38, 38, 0) 0.85%,
+        rgba(38, 38, 38, 0.9) 84%);
     top: 0;
     height: 100%;
     display: flex;
@@ -1181,6 +1178,7 @@ button:disabled {
         Large devices
   ========================= */
 @media (min-width: 992px) {
+
   /* ==========================
         Hero Section
   ========================= */
@@ -1246,7 +1244,6 @@ button:disabled {
     top: 257px;
     position: absolute;
   }
-
 
   /* ==========================
         Work Section
@@ -1488,12 +1485,27 @@ button:disabled {
         X-Large devices
   ========================= */
 @media (min-width: 1200px) {
+
   /* ==========================
         About Section
   ========================= */
   .about-image {
     width: 600.39px;
     height: 744.38px;
+  }
+
+
+  #contact .error {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    transition: color 500ms ease-in-out;
+  }
+
+  #contact .error.active {
+    color: #ff6b00;
   }
 
   /* ==========================
@@ -1520,17 +1532,4 @@ button:disabled {
   .message-field {
     width: 684px;
   }
-}
-
-#contact .error {
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 15px;
-  line-height: 18px;
-  transition: color 500ms ease-in-out;
-}
-
-#contact .error.active {
-  color: #ff6b00;
 }
